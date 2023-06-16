@@ -7,7 +7,7 @@ from aiogram.types import InputFile
 import asyncio
 from datetime import datetime, timedelta
 from random import randint
-from bot import Settings
+from telebot.bot import Settings
 import os
 bot = Bot(token=Settings.TOKEN, parse_mode='HTML')
 dp = Dispatcher(bot)

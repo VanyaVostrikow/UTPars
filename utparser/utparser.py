@@ -1,5 +1,5 @@
 import requests
-from doubler_killer import doubler_killer
+from telebot.SpecFunc.doubler_killer import doubler_killer
 from bs4 import BeautifulSoup
 import re
 class UTparser:
