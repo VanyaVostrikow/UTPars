@@ -1,5 +1,5 @@
 from django.db import models
-from users.models import Users, UserDetail
+from users.models import Users
 from channels.models import Channels
 
 class Reports(models.Model):

@@ -9,7 +9,7 @@ class Video(serializers.ModelSerializer):
         model = Video
         fields = ("__all__")
 
-class Video(serializers.ModelSerializer):
+class Videoinfo(serializers.ModelSerializer):
     class Meta:
         model = Video_info
         fields = ("__all__")
